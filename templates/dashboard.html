@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+
+
+<h2>
+Dashboard
+</h2>
+
+
+<h3>
+Welcome {{ user.username }}
+</h3>
+
+
+<p>
+Email:
+{{ user.email }}
+</p>
+
+
+<p>
+You have successfully logged into a protected page.
+</p>
+
+
+<div class="security-box">
+
+
+<h3>
+Security Status
+</h3>
+
+
+<ul>
+
+<li>
+Password: Hashed using bcrypt
+</li>
+
+
+<li>
+Authentication: Session Based
+</li>
+
+
+<li>
+Database: SQLAlchemy ORM
+</li>
+
+
+<li>
+Input Validation: Enabled
+</li>
+
+
+</ul>
+
+
+</div>
+
+
+{% endblock %}
