@@ -216,7 +216,7 @@ secure-web-application-flask/
 ## 1. Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/secure-web-application-flask.git
+git clone https://github.com/Tanya-Rajni/secure-web-application-flask.git
 ```
 
 ---
